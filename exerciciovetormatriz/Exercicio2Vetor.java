@@ -33,19 +33,6 @@ public class Exercicio2Vetor {
 				System.out.println("\nNúmero "+num[x]+" é impar!");
 			}
 		}
-		/*for(x=0;x<6;x++)
-		{
-			if (num[x]%2==0)
-			{
-				System.out.println("\nNúmero "+num[x]+" é par!");
-				somapar = somapar + num[x];
-			}
-			else
-			{
-				System.out.println("\nNúmero "+num[x]+" é impar!");
-				qtddi++;
-			}
-		}	*/	
 		System.out.println("\nSomatória Números Pares: "+somapar);
 		System.out.println("\nQuantidade de entradas com Números Ímpares: "+qtddi);
 	}
